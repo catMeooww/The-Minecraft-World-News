@@ -1,0 +1,55 @@
+#Minecraft_Hello {
+    text-align: center;
+}
+
+#minecraft_logo {
+    width: 100%;
+    height: 100%;
+}
+
+#minecraft_title {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    z-index: 10;
+    color: aliceblue;
+    padding: 7px;
+    border-width: 2px;
+    border-style: double;
+    background-color: rgba(59, 169, 184, 0.589);
+    font-size: 50px;
+}
+
+#exit{
+    position: fixed;
+    z-index: 15px;
+    right: 90%;
+    top: 2%;
+    color:chocolate;
+    border-style: solid;
+    border-color: brown;
+    background-color: rgba(165, 42, 42, 0.644);
+}
+#mc_menu{
+    list-style: none;
+    position: fixed;
+    z-index: 20px;
+    right: 2%;
+    top: 2%;
+    border-style: solid;
+    border-color: darkgreen;
+    background-color: rgba(82, 223, 94, 0.699);
+}
+li{
+    display: inline;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: chartreuse;
+}
+.mc_news{
+    padding:10px;
+    border-color:forestgreen;
+    border-style: dashed;
+}

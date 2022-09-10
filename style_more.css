@@ -1,0 +1,16 @@
+.Mc_Mob{
+    width: 90%;
+    height: 100px;
+}
+.more_about_minecraft{
+    text-align: center;
+}
+a{
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 106);
+}
+#back{
+    color:red;
+}
