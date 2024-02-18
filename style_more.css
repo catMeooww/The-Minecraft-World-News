@@ -1,16 +1,30 @@
-.Mc_Mob{
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+}
+
+body {
+    font-family: Minecraft;
+    color: aliceblue;
+}
+
+.Mc_Mob {
     width: 90%;
     height: 100px;
 }
-.more_about_minecraft{
+
+.more_about_minecraft {
     text-align: center;
 }
-a{
-    padding: 10px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(0, 255, 106);
+
+#back {
+    color: red;
+    border: 5px ridge green;
 }
-#back{
-    color:red;
+
+.MCSites {
+    width: 300px;
+    height: 200px;
+    border: ridge green 6px;
+    padding: 10px;
 }

@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+}
+
+body {
+    font-family: Minecraft;
+    background-image: url("Wood\ Background.jpg");
+    color: antiquewhite;
+    text-align: center;
+}
+
 #Minecraft_Hello {
     text-align: center;
 }
@@ -20,36 +32,42 @@
     font-size: 50px;
 }
 
-#exit{
-    position: fixed;
-    z-index: 15px;
-    right: 90%;
-    top: 2%;
-    color:chocolate;
+#exit {
+    color: chocolate;
     border-style: solid;
     border-color: brown;
     background-color: rgba(165, 42, 42, 0.644);
 }
-#mc_menu{
+
+#mc_menu {
     list-style: none;
-    position: fixed;
-    z-index: 20px;
-    right: 2%;
-    top: 2%;
     border-style: solid;
     border-color: darkgreen;
     background-color: rgba(82, 223, 94, 0.699);
 }
-li{
+
+#header {
+    background-image: url("Stone\ Background.png");
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-bottom: black ridge 5px;
+}
+
+li {
     display: inline;
 }
-a{
+
+a {
     padding: 10px;
     text-decoration: none;
     color: chartreuse;
 }
-.mc_news{
-    padding:10px;
-    border-color:forestgreen;
+
+.mc_news {
+    padding: 10px;
+    border-color: forestgreen;
     border-style: dashed;
 }
